@@ -1,3 +1,5 @@
+package dynamic
+
 import kotlin.time.measureTime
 
 class GridPath {
