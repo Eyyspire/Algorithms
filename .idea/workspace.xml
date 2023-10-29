@@ -119,7 +119,7 @@
       <workItem from="1698434875084" duration="82000" />
       <workItem from="1698434976129" duration="59000" />
       <workItem from="1698435047149" duration="5213000" />
-      <workItem from="1698580972091" duration="4335000" />
+      <workItem from="1698580972091" duration="4643000" />
     </task>
     <task id="LOCAL-00001" summary="add: divideAndConquerAlgo and refacto: main methods">
       <option name="closed" value="true" />
@@ -129,7 +129,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698584094686</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add: greedy algorithms">
+      <option name="closed" value="true" />
+      <created>1698585717312</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698585717312</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add: greedy algorithms">
+      <option name="closed" value="true" />
+      <created>1698585754476</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698585754476</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +153,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add: divideAndConquerAlgo and refacto: main methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: divideAndConquerAlgo and refacto: main methods" />
+    <MESSAGE value="add: greedy algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: greedy algorithms" />
   </component>
 </project>
