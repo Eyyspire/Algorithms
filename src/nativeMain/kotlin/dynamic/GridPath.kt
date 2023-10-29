@@ -20,10 +20,9 @@ class GridPath {
          }
          return memo[Pair(n, m)]!!;
      }
- }
 
- fun main(){
-     val gridPath = GridPath();
-     println("Value : " + gridPath.griPath(18, 6));
-     println("Execution time : " + measureTime { gridPath.griPath(18, 6) });
+    fun launch(){
+        println("Value : " + griPath(18, 6));
+        println("Execution time : " + measureTime { griPath(18, 6) });
+    }
  }

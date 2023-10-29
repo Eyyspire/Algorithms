@@ -15,13 +15,12 @@ class Fibonacci{
         }
         return memo[n]!!;
     }
-}
 
-private fun main(){
-    val fib = Fibonacci()
-    println("Value : " + fib.naiveFib(20))
-    println("Execution time : " + measureTime { fib.naiveFib(20) });
-    println("Iterative dynamic")
-    println("Value : " + fib.iterativeDynFib(20))
-    println("Execution time : " + measureTime { fib.iterativeDynFib(20) });
+    fun launch(){
+        println("Value : " + naiveFib(20))
+        println("Execution time : " + measureTime { naiveFib(20) });
+        println("Iterative dynamic")
+        println("Value : " + iterativeDynFib(20))
+        println("Execution time : " + measureTime { iterativeDynFib(20) });
+    }
 }

@@ -45,17 +45,14 @@ class MinimumCoins() {
         return if (a < b) a else b;
     }
 
-}
-
-
-private fun main(){
-    val minimumCoins = MinimumCoins();
-    println("Value : " + minimumCoins.minimumCoins(13, listOf(1, 4, 5)));
-    println("Execution time : " + measureTime { minimumCoins.minimumCoins(13, listOf(1, 4, 5)) });
-    println("Iterative dynamic")
-    println("Value : " + minimumCoins.minimumCoinsDynamic(13, listOf(1, 4, 5)))
-    minimumCoins.memo = HashMap<Int, Int>();
-    println("Execution time : " + measureTime { minimumCoins.minimumCoinsDynamic(13, listOf(1, 4, 5))
-    });
+    fun launch(){
+        println("Value : " + minimumCoins(13, listOf(1, 4, 5)));
+        println("Execution time : " + measureTime { minimumCoins(13, listOf(1, 4, 5)) });
+        println("Iterative dynamic")
+        println("Value : " + minimumCoinsDynamic(13, listOf(1, 4, 5)))
+        memo = HashMap<Int, Int>();
+        println("Execution time : " + measureTime { minimumCoinsDynamic(13, listOf(1, 4, 5))
+        });
+    }
 
 }
