@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c53db14a-f46e-44df-ba5d-ae2e8535c952" name="Changes" comment="add: divideAndConquerAlgo and refacto: main methods">
-      <change afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/glutonny/GreedyMinimumCoins.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nativeMain/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nativeMain/kotlin/dynamic/MinimumCoinds.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/dynamic/MinimumCoins.kt" afterDir="false" />
+    <list default="true" id="c53db14a-f46e-44df-ba5d-ae2e8535c952" name="Changes" comment="refactor: clean project">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +116,7 @@
       <workItem from="1698434875084" duration="82000" />
       <workItem from="1698434976129" duration="59000" />
       <workItem from="1698435047149" duration="5213000" />
-      <workItem from="1698580972091" duration="4643000" />
+      <workItem from="1698580972091" duration="4994000" />
     </task>
     <task id="LOCAL-00001" summary="add: divideAndConquerAlgo and refacto: main methods">
       <option name="closed" value="true" />
@@ -145,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698585754476</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor: clean project">
+      <option name="closed" value="true" />
+      <created>1698585918506</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698585918506</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +159,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add: divideAndConquerAlgo and refacto: main methods" />
     <MESSAGE value="add: greedy algorithms" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: greedy algorithms" />
+    <MESSAGE value="refactor: clean project" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: clean project" />
   </component>
 </project>
